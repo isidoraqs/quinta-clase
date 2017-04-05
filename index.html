@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quinta clase | Diseño y Nuevos Medios</title>
+    <!-- Search Engine -->
+    <meta name="description" content="Primer ejercicio con Bootstrap 3">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Quinta clase |  Diseño y Nuevos Medios">
+    <meta itemprop="description" content="Primer ejercicio con Bootstrap 3">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Quinta clase |  Diseño y Nuevos Medios">
+    <meta name="twitter:description" content="Primer ejercicio con Bootstrap 3">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Quinta clase |  Diseño y Nuevos Medios">
+    <meta name="og:description" content="Primer ejercicio con Bootstrap 3">
+    <meta name="og:site_name" content="Cuarta clase">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <!-- Los estilos, el bootstrap.min.css está dentro de una carpeta, estilo.css no. -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#primero" class="page-scroll">Primer artículo</a></li>
+              <li><a href="#segundo" class="page-scroll">Segundo artículo</a></li>
+              <li><a href="#tercero" class="page-scroll">Tercer artículo</a></li>
+              <li><a href="https://github.com/isidoraqs" target="_blank">Mi cuenta en Github</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <header>
+            <h1>Deporte y Bienestar</h1>
+            <h2>La mejor desición para liberar endorfina. Sigan las recomendaciones de <a href="https://www.nngroup.com/articles/blah-blah-text-keep-cut-or-kill/" target="_blank" title="Blah Text: Keep, Cut, or Kill?">Jakob Nielsen</a></h2>
+          </header>
+        </div><!--/col-sm-12 que contiene al header-->
+        <div class="col-sm-8">
+          <section>
+          <!--acá abro el artículo-->
+          <article class="row" id="primero">
+            <div class="col-sm-12">
+              <h3>Despejarse de la rutina</h3>
+              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="https://www.google.cl/search?q=rutina&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiGx7iiw43TAhUMkpAKHc0GDPMQ_AUIBigB&biw=1280&bih=801#imgrc=sMqEdaTVVr7H1M:"></figure>
+              <p>Salir a hacer deporte más de tres veces a la semana aumenta la concentración en un 10%, considerando el estudio de <a href="http://www.isbm.gob.sv/index.php/servicios/guia/ciudadano/servicios-medicos/medicos-especialistas.html" target="_blank">Especialistas en Bienestar </a>.</p>
+              <p>Vivimos en un mundo rodeadeo de exigencias y quehaceres. Intentamos abarcar demasiado en tan poco tiempo, lo que acaba por afectarnos psicológicamente en grandes escalas. Queremos vernos bien, hacer lo que debemos hacer en nuestras respectivas etapas, ver a nuestros amigos y familiares, salir del hogar pero al mismo tiempo aprovecharlo,etc. Lo queremos todo y acabamos por obtener nada, adquirimos sin quererlo estreses innecesarios en vez de lograr lo que planeamos. Entonces me pregunto, ¿Por qué no darnos un par de horas de deporte semanales y así evitar o disminuír los males a los que nos exponemos?</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu auctor tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam justo tortor, porta eu dapibus eget</p>
+              <p>Vestibulum fermentum, felis sed suscipit porttitor, purus velit molestie tortor, at interdum mi est vel purus. Aliquam enim diam, consequat a tempus quis, hendrerit sit amet neque. Aliquam commodo ullamcorper finibus.</p>
+              <p>Fusce a lorem quis nunc tempus pretium. Nulla non nunc ut ex euismod cursus nec sit amet risus. Suspendisse aliquam congue diam vel pellentesque. Proin sollicitudin tortor non dignissim tristique. In et leo porttitor.</p>
+              <p>Con esto se <a data-toggle="modal" data-target="#miPrimerModal">abre un modal</a>. Búscale un uso.</p>
+          </article>
+          <!--acá cierro el artículo-->
+          <!--acá abro el artículo-->
+          <article class="row" id="segundo">
+            <div class="col-sm-12">
+              <h3>Bienestar por dentro y por fuera</h3>
+              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="https://www.google.cl/search?q=wellness&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiVgrnwwo3TAhXDIZAKHbVWBuwQ_AUIBigB&biw=1280&bih=801#imgrc=3VbzOeugSY6NQM:"></figure>
+              <p>El 70% de las mujeres se consideran lindas por fuera pero no por dentro, gracias al estudio realizado por analistas canadienses <a href="https://cosmetics2012.wordpress.com/conclusion/" target="_blank">cómo es que los usuarios leen en la Web</a>.</p>
+              <p>No somos solamente lo que el resto ve de nosotros, sino que somos una gran combinación entre lo que mostramos y lo que no, entre lo físico y lo psicológico y es así somo adquirimos la definición de ser personas. Porque hacer deporte claramente es beneficioso para el físico, apretamos los músculos, liberamos hormonas beneficiosas tales como las endorfinas del bienestar, la hormona del crecimiento, etc., mejoramos nuestra condición aeróbica y nuestro estado físico.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu auctor tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam justo tortor, porta eu dapibus eget</p>
+              <p>Vestibulum fermentum, felis sed suscipit porttitor, purus velit molestie tortor, at interdum mi est vel purus. Aliquam enim diam, consequat a tempus quis, hendrerit sit amet neque. Aliquam commodo ullamcorper finibus.</p>
+              <p>Fusce a lorem quis nunc tempus pretium. Nulla non nunc ut ex euismod cursus nec sit amet risus. Suspendisse aliquam congue diam vel pellentesque. Proin sollicitudin tortor non dignissim tristique. In et leo porttitor.</p>
+              <p>Con esto se <a data-toggle="modal" data-target="#miSegundoModal">abre un modal</a>. Búscale un uso.</p>
+          </article>
+          <!--acá cierro el artículo-->
+          <!--acá abro el artículo-->
+          <article class="row" id="tercero">
+            <div class="col-sm-12">
+              <h3>Sentirse bien con uno mismo</h3>
+              <h5><a href="archivos.html" class="archivos">Archivos</a> Miércoles 5 de abril, 2017</h5>
+              <figure><img src="https://www.google.cl/search?q=quererse+a+uno+mismo&espv=2&site=webhp&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwjJmfjAw43TAhUIQpAKHQPNA6kQ_AUIBigB&biw=1280&bih=801#q=quererse+a+uno+mismo+para+querer+a+los+demas&tbm=isch&tbas=0&*&imgrc=egPLcUeJM5XEbM:"></figure>
+              <p>escribir, considerando el estudio de <a href="https://www.nngroup.com/articles/how-users-read-on-the-web/" target="_blank">cómo es que los usuarios leen en la Web</a>.</p>
+              <p>Escribir 100 pal.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu auctor tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam justo tortor, porta eu dapibus eget</p>
+              <p>Vestibulum fermentum, felis sed suscipit porttitor, purus velit molestie tortor, at interdum mi est vel purus. Aliquam enim diam, consequat a tempus quis, hendrerit sit amet neque. Aliquam commodo ullamcorper finibus.</p>
+              <p>Fusce a lorem quis nunc tempus pretium. Nulla non nunc ut ex euismod cursus nec sit amet risus. Suspendisse aliquam congue diam vel pellentesque. Proin sollicitudin tortor non dignissim tristique. In et leo porttitor.</p>
+              <p>Con esto se <a data-toggle="modal" data-target="#miTercerModal">abre un modal</a>. Búscale un uso.</p>
+          </article>
+          <!--acá cierro el artículo-->
+        </section>
+      </div><!--/col-sm-8 que contiene al section-->
+        <div class="col-sm-4">
+          <aside>
+            <h3>TIPS</h3>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Mente tranquila
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <br>Saber que uno es dueño de sus propias desiciones.</br>
+                    <br>Eliminar lo que sabemos que no aporta</br>
+                    <br>Respetar lo que mi mente y corazón indican</br>  
+
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Prioridades claras
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                  <br>Amistades</br>
+                  <br>Familia</br>
+                  <br>Hobbies</br>
+                  <br>Estudio/Pega</br>
+                  <br>Uno mismo</br>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Buena planificación de actividades
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+        </aside>
+      </div><!--/col-sm-4 que contiene al aside-->
+
+        <div class="col-sm-12">
+          <footer>
+          <p><a href="iquevedo1@uc.cl">Isidora Quevedo</a>. Sigo avanzando en Bootstrap.</p>
+        </footer>
+      </div><!--/col-sm-12 que contiene al footer-->
+      </div><!--/row-->
+    </div><!--/container-->
+
+<!--por acá voy a poner miPrimerModal-->
+<div class="modal fade" id="miPrimerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Referencias del artículo</h4>
+      </div>
+      <div class="modal-body">
+        <p>Llosa, Mario. Cinco esquinas. Miami, FL: Alfaguara, 2016. Print..</p>
+      </div><!--/modal-body-->
+    </div><!--/modal-content-->
+  </div><!--/modal-dialog-->
+</div><!--/modal-->
+
+<!--por acá voy a poner miSegundoModal-->
+<div class="modal fade" id="miSegundoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Referencias del artículo</h4>
+      </div>
+      <div class="modal-body">
+        <p>Tippett, Krista. Becoming wise : an inquiry into the mystery and art of living. New York: Penguin Press, 2016. Print.Greger, Michael, and Gene Stone. How not to die : discover the foods scientifically proven to prevent and reverse disease. New York: Flatiron Books, 2015. Print.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--por acá voy a poner miTercerModal-->
+<div class="modal fade" id="miTercerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Refencias del artículo</h4>
+      </div>
+      <div class="modal-body">
+        <p>Greger, Michael, and Gene Stone. How not to die : discover the foods scientifically proven to prevent and reverse disease. New York: Flatiron Books, 2015. Print.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scroll.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+  </body>
+</html>
